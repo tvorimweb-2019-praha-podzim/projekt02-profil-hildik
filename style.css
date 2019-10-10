@@ -1,6 +1,103 @@
+
+body {
+    background-color: #bdc3c7;
+}
+
+.profil{
+    background-color: #31363b;
+    width: 250px;
+    margin: auto;
+    box-shadow:black 0px 0px 5px;
+}
+
+.hlavicka{
+    width: 250px;
+    position: relative;
+}
+
+.foto{
+    width: 100%;
+}
+
+.logo{
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    z-index: 1;
+    box-shadow:black 0px 0px 5px;
+}
+
+.jmeno{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.obsah{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #bdc3c7;
+    font-weight: normal;
+    padding: 10px;
+    line-height: 150%;
+    margin: 10px;
+    font-size: 15px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    list-style: none
+}
+
+li {
+    display: inline-block; 
+    border: #3f464d solid 1px;
+}
+
+a {
+    padding: 10px;
+    display: block;
+    color:  #bdc3c7;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+    color: white;
+    /* moje shana, aby při najetí myši byl text bílou se nezdařil */
+}
+
+.facebook:hover {
+    background-color:#3b5998;
+    color: white;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+.facebook {
+    width: 50%;
+    float: left;
+}
+
+.twitter {
+    width: 50%;
+}
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
 
 /*
  BARVY
@@ -14,6 +111,3 @@ html { box-sizing: border-box; }
 */
 
 
-body {
-    background-color: #bdc3c7;
-}
