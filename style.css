@@ -1,4 +1,8 @@
 
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 body {
     background-color: #bdc3c7;
 }
@@ -72,6 +76,10 @@ a {
     /* moje shana, aby při najetí myši byl text bílou se nezdařil */
 }
 
+ul a:hover {
+    color: white;
+}
+
 .facebook:hover {
     background-color:#3b5998;
     color: white;
@@ -94,9 +102,7 @@ a {
 .twitter {
     width: 50%;
 }
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
 
 
 /*
